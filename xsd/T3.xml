@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<garderia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="T3.xsd">
+    <neno numeroExpedente="2344" codigo="M53-123">
+        <nome>Noa Blanco Coello</nome>
+        <dataNacemento>2010-10-12</dataNacemento>
+        <peso>13.5</peso>
+        <altura>78</altura>
+        <vacunas>true</vacunas>
+        <sexo>M</sexo>
+        <contacto relacion="pai">981123456</contacto>
+        <contacto relacion="nai">981654321</contacto>
+        <idade anos="2" meses="8"/>
+    </neno>
+</garderia>

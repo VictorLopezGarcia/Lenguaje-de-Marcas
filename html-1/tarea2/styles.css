@@ -1,0 +1,32 @@
+body{
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #0e4b74, #204594);
+    font-family: Arial, sans-serif;
+}
+ul, ol, dl{
+    text-align: start;
+    display: inline-block;
+    
+}
+a{
+    color: white;
+}
+a:hover{
+    color: lightgray;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+mi_hover:hover{
+    color: lightgray;
+    resize: vertical;
+}
+
+
+
+

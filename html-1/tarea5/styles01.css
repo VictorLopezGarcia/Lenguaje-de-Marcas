@@ -1,0 +1,69 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; ;
+}
+
+header{
+    padding-bottom: 60px;
+    h1::first-letter{
+        font-size: 140%;
+    }
+    h1 {
+        float: left;
+        a{
+            color: rgb(0, 173, 0);
+            font-family: Georgia, serif;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 25px;
+ overflow: hidden;
+ float: right;
+}
+
+nav li {
+    float: left;
+    a {
+        display: block;
+        text-align: center;
+        padding: 5px 16px;
+        margin:10px 5px;
+        text-decoration: none;
+        background-color: rgb(119, 75, 34);
+        color: #ffffff;
+    }
+    a:hover {
+        color:rgb(255, 145, 2);
+    }
+}
+
+#SobreMi{
+    background-color: rgb(133, 133, 133);
+    h2{
+        color:  rgb(255, 145, 2);
+        padding-bottom: 15px;
+    }
+    p{
+        color: #ffffff;
+        padding-bottom: 10px;
+    }
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-right: 50px;
+    padding-bottom: 200px;
+}
+
+footer{
+    font-size: small;
+    float: right;
+}

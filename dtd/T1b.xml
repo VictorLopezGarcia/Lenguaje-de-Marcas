@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<!DOCTYPE mensaxe SYSTEM "email.dtd">
+
+<mensaxe>
+ <de>paulap@mail.com</de>
+ <para>pedropp@edu.xunta.es</para>
+ <asunto>Cita</asunto>
+ <corpo>
+    Bos días!
+    Quedamos as 5 no departamento.
+    Saudos.
+ </corpo>
+</mensaxe>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deportes>
+    <deporte Especialidad="100m" Categoria="Femenino">
+        <nombre>Atletismo</nombre>
+        <deportistas>
+            <deportista Medalla="ORO" pais="JAMAICA">
+                <nombre>Elaine Thompson</nombre>
+            </deportista>
+            <deportista Medalla="PLATA" pais="USA">
+                <nombre>Tori Bowi</nombre>
+            </deportista>
+            <deportista Medalla="BRONCE" pais="JAMAICA">
+                <nombre>S.Fraser-Pryce</nombre>
+            </deportista>
+        </deportistas>
+    </deporte>
+    <deporte Especialidad="acrobática" Categoria="Masculino">
+        <nombre>Gimnasia</nombre>
+        <deportistas>
+            <deportista Medalla="ORO" pais="MACEDONIA">
+                <nombre>Pedro Picapiedra</nombre>
+            </deportista>
+            <deportista Medalla="PLATA" pais="PERU">
+                <nombre>Michael Jason</nombre>
+            </deportista>
+            <deportista Medalla="BRONCE" pais="JAMAICA">
+                <nombre>T. Alba Edison</nombre>
+            </deportista>
+        </deportistas>
+    </deporte>
+</deportes>

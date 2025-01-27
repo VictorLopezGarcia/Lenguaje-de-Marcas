@@ -1,0 +1,20 @@
+.tablaBorde{
+
+    border:1px solid black;
+    td, th{
+        border:1px solid black;
+    }
+}
+
+.tablaNoBorde{
+    td, th{
+        padding-left: 10px;
+    }
+}
+#cabeceras{
+    border:1px solid black;
+    padding-bottom: 20px;
+    a{
+        padding-inline: 10px;
+    }
+}

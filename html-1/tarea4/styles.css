@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(0, 31, 207, 0.432);
+    margin: 0;
+    padding: 20px;
+}
+
+hr{
+    border: 1px solid rgba(0, 31, 207, 0.815);;
+}
+h1, h2, h3, caption, a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:  rgba(0, 31, 207, 0.815);
+}
+#Intro{
+    p{
+        font-style: italic;
+        margin-inline: 4ch;    
+    }
+}
+#critica{
+    dl{
+        margin-inline: 4ch;
+    }
+}
+.tablaBorde{
+    border:2px solid rgba(0, 31, 207, 0.815);
+    td, th{
+        border: 2px solid rgba(0, 31, 207, 0.815);
+        border-right-color: rgba(0, 31, 207, 0.432);
+        border-bottom-color:rgba(0, 31, 207, 0.432);
+    }
+}
+.left{
+    text-align: left;
+}
+nav{
+    padding-block: 4ch;
+    background-color: rgba(0, 31, 207, 0.432);
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        li{
+            text-transform: uppercase;
+
+            display: inline;
+            margin: 0 2ch;
+        }
+    }
+}
+img{
+    display: block;
+    margin-left: 0;
+    width: 20%;
+}

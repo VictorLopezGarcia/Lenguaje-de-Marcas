@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto>
+        <nombre>Pepe</nombre>
+        <apellidos>Perez García</apellidos>
+        <direccion>Calle de la Torre, 1</direccion>
+        <telefono tipo= "trabajo">123456789</telefono>
+    </contacto>
+    <contacto>
+        <nombre>Juan</nombre>
+        <apellidos>Lopez Carballo</apellidos>
+        <direccion>Calle de la Torre, 5</direccion>
+        <telefono tipo="casa">981457823</telefono>
+    </contacto>
+    <contacto>
+        <nombre>Mario</nombre>
+        <apellidos>Fernandez Martinez</apellidos>
+        <direccion>Calle de la Torre, 10</direccion>
+        <telefono tipo="movil">694372209</telefono>
+    </contacto>
+</agenda>

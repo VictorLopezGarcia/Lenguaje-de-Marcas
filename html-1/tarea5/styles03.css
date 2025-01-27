@@ -1,0 +1,46 @@
+a{
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}
+caption{
+    color: red;
+}
+table{    
+    border-collapse: collapse;
+    td, th{
+        border:1px solid black;
+    }
+    th::first-letter{
+        font-size: 200%;
+    }
+}
+
+table tr:nth-child(4){
+    td:last-child{
+        text-align: center;
+        background-color: yellow;
+    }
+}
+td:last-child:hover, th:last-child:hover {
+    font-size: 200%;
+}
+
+
+
+table tr td:first-child{
+    background-color: green;
+}
+
+input:required{
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.required::after{
+    content: "*";
+    color: red;
+}
+

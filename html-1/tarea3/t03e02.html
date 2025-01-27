@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <table class="tablaBorde">
+
+            <tr>
+                <th>HORAS</th>
+                <th>LUNES</th>
+                <th>MARTES</th>
+                <th>MIERCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+            </tr>
+            <tr>
+                <td>8.20-<br>9.20</td>
+                <td>BBDD</td>
+                <td>BBDD</td>
+                <td>LMSXI</td>
+                <td>BBDD</td>
+                <td>PROG</td>
+            </tr>
+            <tr>
+                <td>9.20-<br>10.20</td>
+                <td>BBDD</td>
+                <td>BBDD</td>
+                <td>LMSXI</td>
+                <td>BBDD</td>
+                <td>PROG</td>
+            </tr>
+            <tr>
+                <td>10.40-<br>11.40</td>
+                <td>FOL</td>
+                <td>FOL</td>
+                <td>SI</td>
+                <td>CD</td>
+                <td>PROG</td>
+            </tr>
+            <tr>
+                <td>11.40-<br>12.40</td>
+                <td>SI</td>
+                <td>FOL</td>
+                <td>SI</td>
+                <td>PROG</td>
+                <td>SI</td>
+            </tr>
+            <tr>
+                <td>13.00-<br>14.00</td>
+                <td>LMSXI</td>
+                <td>CD</td>
+                <td>PROG</td>
+                <td>PROG</td>
+                <td>SI</td>
+            </tr>
+            <tr>
+                <td>14.00-<br>15.00</td>
+                <td>LMSXI</td>
+                <td>CD</td>
+                <td>PROG</td>
+                <td>PROG</td>
+                <td>SI</td>
+            </tr>
+    </table>
+   
+    <h2><b>HORARIO CON RECREOS</b></h2>
+    <table class="tablaNoBorde">
+        <tr>
+            <th>HORAS</th>
+            <th>LUNES</th>
+            <th>MARTES</th>
+            <th>MIERCOLES</th>
+            <th>JUEVES</th>
+            <th>VIERNES</th>
+        </tr>
+        <tr>
+            <td>8.20-9.20</td>
+            <td rowspan="2">BBDD</td>
+            <td rowspan="2">BBDD</td>
+            <td rowspan="2">LMSXI</td>
+            <td rowspan="2">BBDD</td>
+            <td rowspan="2">PROG</td>
+        </tr>
+        <tr>
+            <td>9.20-10.20</td>
+        </tr>
+        <tr>
+            <td>10.20-10.40</td>
+            <td colspan="5" style="text-align:center;">RECREEO</td>
+        </tr>
+        <tr> 
+            <td>10.40-11.40</td>
+            <td>FOL</td>
+            <td rowspan="2">FOL</td>
+            <td rowspan="2">SI</td>
+            <td>CD</td>
+            <td>PROG</td>
+        </tr>
+        <tr>
+            <td>11.40-12.40</td>
+            <td>SI</td>
+            <td>PROG</td>
+            <td>SI</td>
+        </tr>
+        <tr>
+            <td>12.40-13.00</td>
+            <td colspan="5" style="text-align: center">RECREEO</td>
+        </tr>
+        <tr>
+            <td>13.00-14.00</td>
+            <td rowspan="2">LMSXI</td>
+            <td rowspan="2">CD</td>
+            <td rowspan="2">PROG</td>
+            <td rowspan="2">PROG</td>
+            <td rowspan="2">SI</td>
+        </tr>
+        <tr>
+            <td>14.00-15.00</td>
+        </tr>
+        <tr><td colspan="6" style="text-align: center">
+            Horarios para el grupo de 1er curso DAM
+        </td></tr>
+    </table>
+</body>
+</html>

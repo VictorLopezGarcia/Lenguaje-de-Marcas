@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos [
+ <!ELEMENT alumnos (alumno*)>
+ <!ELEMENT alumno EMPTY>
+ <!ATTLIST alumno codigo ID #REQUIRED>
+ <!ATTLIST alumno nome NMTOKENS #REQUIRED>
+ <!ATTLIST alumno idade NMTOKENS #REQUIRED>
+]>
+
+<alumnos>
+ <alumno codigo="LOR" nome="Lorena_Casal_Rodríguez" idade="5" />
+ <alumno codigo="XUR" nome="Xurxo_Vega_Sousa" idade="7" />
+ <alumno codigo="ANT" nome="Antía_Castro_Castiñeira" idade="12"/>
+</alumnos>

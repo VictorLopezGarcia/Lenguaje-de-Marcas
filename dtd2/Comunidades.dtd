@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE comunidades [
+<!ENTITY k "km2">
+<!ELEMENT comunidades (comunidad*)>
+<!ELEMENT comunidad (dia,nombre,presidente,provincia+)>
+<!ATTLIST comunidad codigo CDATA #REQUIRED>
+<!ELEMENT dia (#PCDATA)>
+<!ATTLIST dia 
+    dia CDATA #REQUIRED
+    mes CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT presidente (#PCDATA)>
+<!ELEMENT provincia (nombre,superficie,concello+)>
+<!ATTLIST provincia 
+    codigo CDATA #REQUIRED
+    unidad CDATA #FIXED "km2"
+    costa (sí|no) "sí">
+<!ELEMENT superficie (#PCDATA)>
+<!ELEMENT concello (nombre,localidad+)>
+<!ATTLIST concello 
+    codigo CDATA #REQUIRED
+    capital CDATA #REQUIRED>
+<!ELEMENT localidad (nombre,festivo+)>
+<!ELEMENT festivo (motivo?)>
+<!ATTLIST festivo 
+    dia CDATA #REQUIRED
+    mes CDATA #REQUIRED>
+<!ELEMENT motivo (#PCDATA)>
+]>

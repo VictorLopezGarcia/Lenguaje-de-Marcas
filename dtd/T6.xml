@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE reservas [
+
+    <!ENTITY ene "enero">
+    <!ENTITY feb "febrero">
+    <!ENTITY mar "marzo">
+    <!ENTITY abr "abril">
+    <!ENTITY may "mayo">
+    <!ENTITY jun "junio">
+    <!ENTITY jul "julio">
+    <!ENTITY ago "agosto">
+    <!ENTITY sep "septiembre">
+    <!ENTITY oct "octubre">
+    <!ENTITY nov "noviembre">
+    <!ENTITY dic "diciembre">
+
+    <!ELEMENT reservas (reserva+, cliente+)>
+    
+    <!ELEMENT reserva (data_inicio, data_fin)>
+    <!ATTLIST reserva
+        cliente CDATA #REQUIRED
+        tipo (AD|MP|SA|PC) #REQUIRED>
+
+    <!ELEMENT data_inicio (observacións?)>
+    <!ATTLIST data_inicio
+        ano CDATA #REQUIRED
+        mes CDATA #REQUIRED
+        día CDATA #REQUIRED>
+
+    <!ELEMENT data_fin (observacións?)>
+    <!ATTLIST data_fin
+        ano CDATA #REQUIRED
+        mes CDATA #REQUIRED
+        día CDATA #REQUIRED>
+
+    
+    <!ELEMENT observacións (#PCDATA)>
+    <!ELEMENT cliente (nome, apelidos, mobil, correo?)>
+    <!ATTLIST cliente
+        id ID #REQUIRED>
+
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT apelidos (#PCDATA)>
+    <!ELEMENT mobil (#PCDATA)>
+    <!ELEMENT correo (#PCDATA)>
+
+]>  
+
+
+
+
+
+<reservas>
+    <reserva cliente="CLI1" tipo="AD">
+        <data_inicio ano="2013" mes="&feb;" día="5">
+            <observacións>Chegan sobre as 23:30</observacións>
+        </data_inicio>
+        <data_fin ano="2013" mes="&feb;" día="9" />
+    </reserva>
+    <reserva cliente="CLI2" tipo="MP">
+        <data_inicio ano="2013" mes="&feb;" día="7" />
+        <data_fin ano="2013" mes="&feb;" día="15">
+            <observacións>Saída as 16:00</observacións>
+        </data_fin>
+    </reserva>
+    <reserva cliente="CLI1" tipo="PC">
+        <data_inicio ano="2013" mes="&feb;" día="18" />
+        <data_fin ano="2013" mes="&feb;" día="23" />
+    </reserva>
+    <cliente id="CLI1">
+        <nome>Eva</nome>
+        <apelidos>Sobral García</apelidos>
+        <mobil>688998899</mobil>
+        <correo>eva.sobral@meucorreo.com</correo>
+    </cliente>
+    <cliente id="CLI2">
+        <nome>Xan</nome>
+        <apelidos>López Paz</apelidos>
+        <mobil>677778899</mobil>
+    </cliente>
+</reservas>

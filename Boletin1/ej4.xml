@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <ISBN>9786584956261</ISBN>
+        <titulo>El Quijote</titulo>
+        <publicacion>1605</publicacion>
+        <editorial>Vicens Vives</editorial>
+        <autores>
+            <nombre>Miguel Cervantes</nombre>
+        </autores>
+        <descripcion idioma="Español">
+          El Quijote es una novela escrita por el español Miguel de Cervantes Saavedra. Publicada su primera parte con el título de El ingenioso hidalgo don Quijote de la Mancha a comienzos de 1605, es la obra más destacada de la literatura española y una de las principales de la literatura universal.
+        </descripcion>
+    </libro>
+    <libro>
+        <ISBN>9781589770027</ISBN>
+        <titulo>la vida de lazarillo de tormes y de sus fortunas y adversidades</titulo>
+        <publicacion>1554</publicacion>
+        <editorial>Vicens Vives</editorial>
+        <autores>
+            <nombre>Eduardo Alonso Gonzalez</nombre>
+            <nombre>Antonio Rey Hazas</nombre>
+            <nombre>Gabriel Casa Torrego</nombre>
+            <nombre>Francisco Anton Garcia</nombre>
+        </autores>
+        <descripcion idioma="Español">
+            Literatura.Lingüística. Literatura. Filología;Enseñanza secundaria. Educación Secundaria Obligatoria.
+        </descripcion>
+    </libro>
+</biblioteca>

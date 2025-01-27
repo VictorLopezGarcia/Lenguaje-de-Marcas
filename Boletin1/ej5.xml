@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DAW>
+    <asignatura caracter="obligatorio">
+        <nombre>Lenguajes de Marcas y Sistemas de Gestión de la Información</nombre>
+        <profesor>Jose Antonio</profesor>
+        <horas>4</horas>        
+    
+        <fechas>
+            <inicio>15/09/2019</inicio>
+            <fin>30/06/2020</fin>
+        </fechas>
+        
+        <alumnos>
+            <alumno>
+                <nombre>Ana</nombre>
+                <apellidos>Fernández Gutiérrez</apellidos>
+                <dni>16965696L</dni>
+                <telefono>789654321</telefono>   
+                <correo>ana.fdezgtrrez@hotmail.com</correo>
+                <direccion>
+                    <calle>r/El Percebe</calle>
+                    <numero>13</numero>
+                    <localidad>Santander</localidad>
+                    <cp>39302</cp>
+                </direccion>
+                <nota></nota>
+                <faltas></faltas>
+            </alumno>
+
+            <alumno>
+                <nombre>Pepe</nombre>
+                <apellidos>Pérez</apellidos>
+                <dni>98765432H</dni>
+                <telefono>656566555</telefono>   
+                <correo>yhyh@yahoo.com</correo>
+                <direccion>
+                    <calle>Avda. El Pez</calle>
+                    <numero>5</numero>
+                    <localidad>Suances</localidad>
+                    <cp>39401</cp>
+                </direccion>
+                <nota>apto</nota>
+                <faltas>0</faltas>
+            </alumno>
+        </alumnos>
+
+    </asignatura>
+    
+</DAW>

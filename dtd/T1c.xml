@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<!DOCTYPE mensaxe SYSTEM "email.dtd">
+
+<mensaxe>
+ <de>victor@gmail.com</de>
+ <para>pedropp@gmail.com</para>
+ <asunto>Saudos</asunto>
+ <corpo>
+    
+ </corpo>
+</mensaxe>

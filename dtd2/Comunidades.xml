@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensaxe SYSTEM "Comunidades.dtd">
+
+<comunidades>
+
+    <comunidad codigo="01">
+        <dia dia="12" mes="10"/>
+        <nombre>Andalucía</nombre>    
+        <presidente>Juan Manuel Moreno</presidente>
+        
+        <provincia codigo="AL" unidad="&k;" costa="sí">
+            <nombre>Almería</nombre>
+            <superficie>8774</superficie>
+
+            <concello codigo="04001" capital="Almería">
+                <nombre>Almería</nombre>
+
+                <localidad>
+                    <nombre>Almería</nombre>
+                    <festivo dia="26" mes="12">
+                    <motivo>San Esteban</motivo>
+                    </festivo>
+                    <festivo dia="15" mes="8">
+                    <motivo>Asunción de la Virgen</motivo>
+                    </festivo>
+                </localidad>
+
+                <localidad>
+                    <nombre>Roquetas de Mar</nombre>
+                    <festivo dia="16" mes="7">
+                    <motivo>Virgen del Carmen</motivo>
+                    </festivo>
+                    <festivo dia="24" mes="6">
+                    <motivo>San Juan</motivo>
+                    </festivo>
+                </localidad>
+
+                <localidad>
+                    <nombre>El Ejido</nombre>
+                    <festivo dia="29" mes="6">
+                    <motivo>San Pedro</motivo>
+                    </festivo>
+                    <festivo dia="8" mes="9">
+                    <motivo>Virgen del Mar</motivo>
+                    </festivo>
+                </localidad>
+
+            </concello>
+
+        </provincia>
+
+        <provincia codigo="SE" unidad="&k;" costa="no">
+            <nombre>Sevilla</nombre>
+            <superficie>14036</superficie>
+
+            <concello codigo="41091" capital="Sevilla">
+                <nombre>Sevilla</nombre>
+
+                <localidad>
+                    <nombre>Sevilla</nombre>
+                    <festivo dia="15" mes="8">
+                    <motivo>Asunción de la Virgen</motivo>
+                    </festivo>
+                    <festivo dia="8" mes="12">
+                    <motivo>Inmaculada Concepción</motivo>
+                    </festivo>
+                </localidad>
+
+                <localidad>
+                    <nombre>Dos Hermanas</nombre>
+                    <festivo dia="24" mes="6">
+                    <motivo>San Juan</motivo>
+                    </festivo>
+                    <festivo dia="12" mes="10">
+                    <motivo>Fiesta Nacional de España</motivo>
+                    </festivo>
+                </localidad>
+
+                <localidad>
+                    <nombre>Utrera</nombre>
+                    <festivo dia="29" mes="9">
+                    <motivo>San Miguel</motivo>
+                    </festivo>
+                    <festivo dia="8" mes="9">
+                    <motivo>Virgen de Consolación</motivo>
+                    </festivo>
+                </localidad>
+
+            </concello>
+
+        </provincia>
+
+    </comunidad>
+
+    <comunidad codigo="02">
+        <dia dia="23" mes="4"/>
+        <nombre>Cataluña</nombre>    
+        <presidente>Pere Aragonès</presidente>
+        
+        <provincia codigo="0023" unidad="&k;" costa="sí">
+            <nombre>Barcelona</nombre>
+            <superficie>773</superficie>
+
+            <concello codigo="08019" capital="Barcelona">
+                <nombre>Barcelona</nombre>
+
+                <localidad>
+                    <nombre>Barcelona</nombre>
+                    <festivo dia="24" mes="9">
+                    <motivo>La Mercè</motivo>
+                    </festivo>
+                    <festivo dia="23" mes="4">
+                    <motivo>San Jorge</motivo>
+                    </festivo>
+                </localidad>
+
+                <localidad>
+                    <nombre>Badalona</nombre>
+                    <festivo dia="15" mes="8">
+                    <motivo>Asunción de la Virgen</motivo>
+                    </festivo>
+                    <festivo dia="11" mes="5">
+                    <motivo>San Anastasio</motivo>
+                    </festivo>
+                </localidad>
+
+                <localidad>
+                    <nombre>Hospitalet de Llobregat</nombre>
+                    <festivo dia="24" mes="6">
+                    <motivo>San Juan</motivo>
+                    </festivo>
+                    <festivo dia="29" mes="6">
+                    <motivo>San Pedro</motivo>
+                    </festivo>
+                </localidad>
+
+            </concello>
+
+        </provincia>
+
+        <provincia codigo="0025" unidad="&k;" costa="no">
+            <nombre>Lleida</nombre>
+            <superficie>12172</superficie>
+
+            <concello codigo="25025" capital="Lleida">
+                <nombre>Lleida</nombre>
+
+                <localidad>
+                    <nombre>Lleida</nombre>
+                    <festivo dia="11" mes="5">
+                    <motivo>San Anastasio</motivo>
+                    </festivo>
+                    <festivo dia="29" mes="6">
+                    <motivo>San Pedro</motivo>
+                    </festivo>
+                </localidad>
+
+                <localidad>
+                    <nombre>Balaguer</nombre>
+                    <festivo dia="8" mes="9">
+                    <motivo>Virgen del Puente</motivo>
+                    </festivo>
+                    <festivo dia="24" mes="6">
+                    <motivo>San Juan</motivo>
+                    </festivo>
+                </localidad>
+
+                <localidad>
+                    <nombre>Tàrrega</nombre>
+                    <festivo dia="15" mes="8">
+                    <motivo>Asunción de la Virgen</motivo>
+                    </festivo>
+                    <festivo dia="8" mes="12">
+                    <motivo>Inmaculada Concepción</motivo>
+                    </festivo>
+                </localidad>
+
+            </concello>
+
+        </provincia>
+
+    </comunidad>
+
+
+</comunidades>

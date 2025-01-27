@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta>
+        <comensales>4</comensales>
+        <nombre>Sopa de cebola</nombre>
+        <ingredientes>
+            <ingrediente>
+                <nombre>cebolas</nombre>
+                <cantidad unidad="Kg" >1</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>caldo de carne</nombre>
+                <cantidad unidad="l" >2</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>manteiga</nombre>
+                <cantidad unidad="gr" >100</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>fariña</nombre>
+                <cantidad unidad="cullerada" >1</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>queixo emmental suízo</nombre>
+                <cantidad unidad="gr" >100</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Pan torrado</nombre>
+                <cantidad unidad="rebandas" ></cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Tomiño</nombre>
+                <cantidad unidad="" ></cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>loureiro</nombre>
+                <cantidad unidad="folla" >1</cantidad>
+            </ingrediente>
+            <ingrediente>
+                <nombre>Pementa</nombre>
+                <cantidad unidad="" ></cantidad>
+            </ingrediente>
+        </ingredientes>
+
+        <proceso>
+            <p>Pelar e partir as cebolas en toros finos.</p>
+            <p>Sofritilas coa manteiga, sal e pementa a lume lento ata que estean transparentes sen dourarse.</p>
+            <p>Engadir a fariña sen deixar de remover.</p>
+            <p>Poñelo nunha cazola co caldo, o tomiño e o loureiro.</p>
+            <p>Deixar cocer a lume lento durante uns 15 minutos.</p>
+            <p>Poñer as rebandas de pan encima, empoar o queixo e gratinar ao forno.</p>
+        </proceso>
+        
+    </receta>
+</recetas>

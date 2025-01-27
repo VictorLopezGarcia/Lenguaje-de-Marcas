@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciclos [
+ <!ELEMENT ciclos (ciclo)>
+ <!ELEMENT ciclo (#PCDATA)>
+]>
+
+<ciclos>
+ <ciclo>Desenvolvemento de Aplicacións Multiplataforma</ciclo>
+</ciclos>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensaxe SYSTEM "t5b.dtd">
+
+<reservas ano="2025">
+    <reserva local="Polideportivo">
+        <data dia="12" mes="07" horario="mañá"/>
+        <clientePersoal>Víctor López García</clientePersoal>
+    </reserva>
+</reservas>

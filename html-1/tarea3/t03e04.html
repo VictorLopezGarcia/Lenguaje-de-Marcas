@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 4</title>
+    </head>
+    <body>
+        <h1>Formulario de Alta</h1>
+        <form>
+            <fieldset>
+                <legend>Indica Datos Acceso</legend>
+                usuario:
+                <br>
+                <input type="text" name="usuario" placeholder="Escribe un nombre usuario">
+                <br>
+                <br>
+                clave:
+                <br>
+                <input type="password" name="clave"placeholder="Escribe una clave minimo 8">
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                Nombre
+                <br>
+                <input type="text" name="nombre">
+                <br>
+                <br>
+                Apellidos
+                <br>
+                <input type="text" name="apellidos">
+                <br>
+                <br>
+                Correo Electrónico
+                <br>
+                <input type="email" name="email">
+                <br>
+                <br>
+                Web Personal
+                <br>
+                <input type="url" name="web">
+                <br>
+                <br>
+                Teléfono
+                <br>
+                <input type="tel" name="telefono">
+                <br>
+                <br>
+                provincia
+                <br>
+                <select name="lista_de_provincias">
+                    <option value="A Coruña">A Coruña</option>
+                    <option value="Lugo">Lugo</option>
+                    <option value="Ourense">Ourense</option>
+                    <option value="Pontevedra">Pontevedra</option>
+                </select>
+                <br>
+                <br>
+                Edad
+                <br>
+                <input type="number" name="edad">
+                <br>
+                <br>
+                Fecha de Nacimiento
+                <br>
+                <input type="date" name="fecha_nacimiento">
+                <br>
+                <br>
+                Fotografía
+                <br>
+                <input type="file" name="foto">
+                <br>
+                <br>
+                Sexo
+                <br>
+                <input type="radio" name="sexo" value="hombre">Hombre
+                <br>
+                <input type="radio" name="sexo" value="mujer">Mujer
+                <br>
+                <input type="radio" name="sexo" value="omitir">Omitir
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Escribe una breve presentación...</legend>
+                <textarea name="presentacion" rows="7" cols="50"></textarea>
+            </fieldset>
+            <br>
+            <br>
+            <checkbox>
+                <input type="checkbox" name="acepto" value="acepto">Acepto las condiciones de uso
+            </checkbox>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="DAR ALTA NUEVO USUARIO"> <span>&nbsp;</span> <input type="reset" value="LIMPIAR FORMULARIO">
+        </form>
+    </body>
+</html>

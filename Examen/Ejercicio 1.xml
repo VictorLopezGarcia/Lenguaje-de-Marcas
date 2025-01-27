@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listafacturas>
+
+    <factura fecha="29/11/2024">
+
+        <emisor cif="49675057W">
+            <nombre>Víctor</nombre>
+            <volumenventas/>
+        </emisor>
+
+        <pagador cif="56782409E">
+            <nombre>Pedro</nombre>
+            <volumenventas>101</volumenventas>
+        </pagador>
+
+        <importe>590</importe>
+
+    </factura>
+
+    <factura fecha="20/11/2024">
+
+        <emisor cif="56782409E">
+            <nombre>Pedro</nombre>
+            <volumenventas>101</volumenventas>
+        </emisor>
+        
+        <pagador cif="49675057W">
+            <nombre>Victor</nombre>
+            <volumenventas/>
+        </pagador>
+
+        <importe>100</importe>
+
+    </factura>
+
+</listafacturas>

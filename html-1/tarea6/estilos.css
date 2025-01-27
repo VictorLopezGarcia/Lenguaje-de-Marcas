@@ -1,0 +1,271 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 50px;
+}
+hr{
+    margin: 0%;
+    border: 1px solid #fa5656;
+}
+header{
+    background-color: #ee9494;
+    padding: 20px;
+    img{
+        width: 200px;
+    }
+    ul{
+        float: right;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: right;
+        width: 25%;
+        li{
+        
+            img{
+                width: 40px;
+                height: 40px;
+                margin: 0 10px;
+            }
+        }
+    }
+}
+nav{
+    ul{
+        list-style-type: none;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        li{
+            margin: 0 10px;
+            font-family: "Bebas Neue", cursive;
+            text-transform: uppercase;
+            font-size: larger;
+            a{
+                color: #000;
+                text-decoration: none;
+            }
+            a:hover{
+                background-color: #c0c0c0;
+                border-radius: 5px;
+            }
+            .active{
+                color: #fa5656;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #fa5656;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: "Sour Gummy", cursive;
+    color: #fa5656;
+}
+
+.video{
+    padding-inline: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    video{
+        max-width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border:3px solid #fa5656;
+    }
+    p{
+        font-family: "Bebas Neue", cursive;
+        font-size:medium;
+    }
+    p:last-child{
+        color: #fa5656;
+        font-weight: bold;
+    }
+}
+
+#galeria{
+    justify-content: center;
+    padding-inline: 10%;
+    #main{
+        justify-content: center;
+        margin-bottom: 30px;
+        display: flex;
+        width: 100%;
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+        
+    }
+    ul{
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display:inline-flex;
+        flex-wrap:wrap;
+        li{
+            img{
+                object-fit: cover;
+                border: 1px solid #fa5656;
+                border-radius: 5px;
+                animation: zoom-out 0.5s forwards;
+
+            }
+            img:hover {
+                animation: zoom 0.5s forwards;
+            }
+        }
+    }
+}
+
+.carta{
+    ul{
+        list-style: none;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        h2{
+            font-family: "Sour Gummy", cursive;
+        }
+        li{
+            width: 100%;
+            background-color: #c0c0c0;
+            margin-inline: 40px;
+            margin-block: 20px;
+            border-radius: 5px;
+            display: inside;
+            padding: 10px;
+            img{
+                float: left;
+                margin: 20px;
+                border: 1px solid #fa5656;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            p{
+                margin: 20px;
+                font-family: "Bebas Neue", cursive;
+                font-size: small;
+            }
+            p:nth-child(4){
+                font-weight: bold;
+            }
+            input{
+                margin: 20px;
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid #fa5656;
+            }
+            input:hover{
+                background-color: #fa5656;
+            }
+            
+        }
+    }
+}
+
+.receta{
+    padding-inline: 50px;
+    img{
+        width: 300px;
+        float: left;
+        margin-right: 30px;
+    }
+    h2{
+        font-family: "Sour Gummy", cursive;
+    }
+    ul{
+        li{
+            font-family: "Bebas Neue", cursive;
+            font-size: small;
+        }
+        margin-bottom: 40px;
+    }
+    div{
+        margin-top: 60px;
+        background-color: #c0c0c0;
+        border-radius: 5px;
+        padding-inline: 20px;
+        padding-block: 5px;
+        ol{
+            padding-inline: 20px;
+            padding-block: 5px;
+            font-family: "Bebas Neue", cursive;
+            font-size: small;
+            li{
+                margin-block: 10px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 468px){
+    nav{
+        ul{
+            flex-direction: column;
+            li{
+                background-color: #c0c0c0;
+                padding-inline: 5px;
+                border-radius: 5px;
+                margin: 5px;
+                
+            }
+            li:hover{
+                background-color: #fa5656;
+                a{
+                    color: #000;
+                }
+                a:hover {
+                    background-color: inherit;
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes zoom {
+    0% {
+        width: 250px;
+        height: 250px;
+        padding: 5px;
+        margin: 5px;
+    }
+    100% {
+        width: 270px;
+        height: 270px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@keyframes zoom-out {
+    0% {
+        width: 270px;
+        height: 270px;
+        padding: 0px;
+        margin: 0px;
+    }
+    100% {
+        width: 250px;
+        height: 250px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
