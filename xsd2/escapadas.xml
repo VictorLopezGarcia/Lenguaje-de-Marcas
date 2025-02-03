@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<escapadas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="escapadas.xsd">
+	<escapada>
+		<ruta>Costa da Morte</ruta>
+		<ano>2009</ano>
+		<noites>12</noites>
+		<percorrido>
+			<escala noites="2">
+				<lugar>Cee</lugar>
+				<aloxamento ref="HotelNaturaleza">
+					 <réxime>AD</réxime>
+					 <noites>2</noites>
+					 <prezo_noite>70</prezo_noite>
+				</aloxamento>
+			</escala>
+			<escala noites="1">
+				<lugar>Fisterra</lugar>
+				<aloxamento ref="InsulaFinist">
+					 <réxime>SA</réxime>
+					 <noites>1</noites>
+					 <prezo_noite>89</prezo_noite>
+				</aloxamento>
+			</escala>
+			<escala noites="4">
+				<lugar>Muxía</lugar>
+				<aloxamento ref="CasaLema">
+					 <réxime>AD</réxime>
+					 <noites>2</noites>
+					 <prezo_noite>60</prezo_noite>
+				</aloxamento>
+				<aloxamento ref="CasaTrillo">
+					 <réxime>MP</réxime>
+					 <noites>2</noites>
+					 <prezo_noite>60</prezo_noite>
+				</aloxamento>
+			</escala>
+			<escala noites="2">
+				<lugar>Camariñas</lugar>
+				<aloxamento ref="LugarCotariño">
+					 <réxime>AD</réxime>
+					 <noites>2</noites>
+					 <prezo_noite>100</prezo_noite>
+				</aloxamento>
+			</escala>
+			<escala noites="3">
+				<lugar>Laxe</lugar>
+				<aloxamento ref="PlayaLaxe">
+					 <réxime>PC</réxime>
+					 <noites>3</noites>
+					 <prezo_noite>86.40</prezo_noite>
+				</aloxamento>
+			</escala>
+		</percorrido>
+	</escapada>
+	<escapada>
+		<ruta>Costa da Morte (curta)</ruta>
+		<ano>2009</ano>
+		<noites>5</noites>
+		<percorrido>
+			<escala noites="1">
+				<lugar>Cee</lugar>
+				<aloxamento ref="HotelNaturaleza">
+					 <réxime>AD</réxime>
+					 <noites>1</noites>
+					 <prezo_noite>70</prezo_noite>
+				</aloxamento>
+			</escala>
+			<escala noites="1">
+				<lugar>Fisterra</lugar>
+				<aloxamento ref="InsulaFinist">
+					 <réxime>SA</réxime>
+					 <noites>1</noites>
+					 <prezo_noite>89</prezo_noite>
+				</aloxamento>
+			</escala>
+			<escala noites="1">
+				<lugar>Muxía</lugar>
+				<aloxamento ref="CasaTrillo">
+					 <réxime>MP</réxime>
+					 <noites>1</noites>
+					 <prezo_noite>60</prezo_noite>
+				</aloxamento>
+			</escala>
+			<escala noites="1">
+				<lugar>Camariñas</lugar>
+				<aloxamento ref="LugarCotariño">
+					 <réxime>AD</réxime>
+					 <noites>1</noites>
+					 <prezo_noite>100</prezo_noite>
+				</aloxamento>
+			</escala>
+			<escala noites="1">
+				<lugar>Laxe</lugar>
+				<aloxamento ref="PlayaLaxe">
+					 <réxime>PC</réxime>
+					 <noites>1</noites>
+					 <prezo_noite>86.40</prezo_noite>
+				</aloxamento>
+			</escala>
+		</percorrido>
+	</escapada>
+	<aloxamento id="HotelNaturaleza" estrelas="2">
+		<nome>Hotel Naturaleza AV</nome>
+		<lugar>Cee</lugar>
+		<web>http://www.costadelamuerte.com/av_naturaleza/index.html</web>
+		<gps>
+			<latitude>42º57'20''N</latitude>
+			<lonxitude>9º11'23''W</lonxitude>
+		</gps>
+		<nota>Wifi</nota>
+		<nota>Piscina</nota>
+	</aloxamento>
+	<aloxamento id="InsulaFinist">
+		<nome>Insula Finisterrae</nome>
+		<lugar>Fisterra</lugar>
+		<web>http://www.insulafinisterrae.com/</web>
+		<nota>Preto de cabo Fisterra</nota>
+	</aloxamento>
+	<aloxamento id="CasaLema">
+		<nome>Casa de Lema</nome>
+		<lugar>Muxía</lugar>
+		<web>http://www.costadelamuerte.com/lema/index.html</web>
+		<gps>
+			<latitude>43º03'13,56"N</latitude>
+			<lonxitude>9º10'53,39"W</lonxitude>
+		</gps>
+	</aloxamento>
+	<aloxamento id="CasaTrillo" alúgase_completa="false">
+		<nome>Casa de Trillo</nome>
+		<lugar>Muxía</lugar>
+		<gps>
+			<latitude>43º02'43,53"N</latitude>
+			<lonxitude>9º11'32,10"W</lonxitude>
+		</gps>
+		<nota>Rutas en bicicleta</nota>
+	</aloxamento>
+	<aloxamento id="LugarCotariño">
+		<nome>Lugar do Cotariño</nome>
+		<lugar>Camariñas</lugar>
+		<web>http://www.docotarino.com</web>
+		<gps>
+			<latitude>43º08'43,27"N</latitude>
+			<lonxitude>9º11'10,94"W</lonxitude>
+		</gps>
+		<nota>Wifi</nota>
+	</aloxamento>
+	<aloxamento id="PlayaLaxe">
+		<nome>Hotel Playa de Laxe</nome>
+		<lugar>Laxe</lugar>
+		<web>http://www.playadelaxe.com/</web>
+		<nota>Almorzo bufet</nota>
+	</aloxamento>
+</escapadas>

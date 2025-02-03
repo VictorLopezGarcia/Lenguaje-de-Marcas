@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="T4.xsd">
+	<libro codigo="010" ISBN="3234532654">
+		<titulo>El Quijote</titulo>
+		<autor sexo="hombre">Miguel de Cervantes</autor>
+		<editorial>Planeta</editorial>
+		<genero>Narrativa</genero>
+		<edicion>45</edicion>
+	</libro>
+</biblioteca>

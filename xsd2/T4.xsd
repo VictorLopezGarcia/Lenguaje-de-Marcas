@@ -1,0 +1,54 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="libro" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="libro">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="titulo" minOccurs="1" maxOccurs="1" type="xs:string"/>
+                <xs:element ref="autor" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="editorial" minOccurs="1" maxOccurs="1" type="xs:string"/>
+                <xs:element name="genero" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+                <xs:element name="edicion" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                <xs:element name="descripcion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="codigo" type="tipoCodigo" use="required"/>
+            <xs:attribute name="ISBN" type="tipoIsbn" use="required"/>
+        </xs:complexType>
+    </xs:element>   
+
+    <xs:element name="autor">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="sexo" type="tipoSexo" use="required"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipoCodigo">
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoIsbn">
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{10}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="tipoSexo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="hombre"/>
+            <xs:enumeration value="mujer"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
